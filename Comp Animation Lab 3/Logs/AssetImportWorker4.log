@@ -1,0 +1,232 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 32472 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/alexl/OneDrive/Documents/GitHub/Comp Animation Lab 3
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+62050
+Successfully changed project path to: C:/Users/alexl/OneDrive/Documents/GitHub/Comp Animation Lab 3
+C:/Users/alexl/OneDrive/Documents/GitHub/Comp Animation Lab 3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 94.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/alexl/OneDrive/Documents/GitHub/Comp Animation Lab 3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24a0)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011553 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 86.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (615ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006471 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\alexl\OneDrive\Documents\GitHub\Comp Animation Lab 3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\alexl\OneDrive\Documents\GitHub\Comp Animation Lab 3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1297ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1011ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3838.
+Memory consumption went from 116.3 MB to 116.2 MB.
+Total: 5.735800 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.179500 ms MarkObjects: 5.201600 ms  DeleteObjects: 0.106100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1356468.792815 seconds.
+  path: Assets/FreeDragons/Prefab/DragonBoarPBR/GreenBoarPBR.prefab
+  artifactKey: Guid(7add1d5b90ab7234d92b5feb2d77c953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonBoarPBR/GreenBoarPBR.prefab using Guid(7add1d5b90ab7234d92b5feb2d77c953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3660a6f572df6a8c46b335a7bd403b') in 0.834996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/FreeDragons/Animations/DragonBoar/walk.fbx
+  artifactKey: Guid(4c7a0e0d6f7821c439d739697a6bbee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Animations/DragonBoar/walk.fbx using Guid(4c7a0e0d6f7821c439d739697a6bbee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c76b081a109c3423c389619ee9354b8') in 0.351742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterGreenHP.prefab
+  artifactKey: Guid(fb64934996b606541bc2557bc4f51645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterGreenHP.prefab using Guid(fb64934996b606541bc2557bc4f51645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d73a07b1f615ef504fecf3e7c73e02e') in 0.333449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.856420 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterPBR
+  artifactKey: Guid(5d7d0afb1a4a2334099a3b364f931492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterPBR using Guid(5d7d0afb1a4a2334099a3b364f931492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985e1fb65338a0fec1993053afe647b8') in 0.019800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031198 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterPBR/DragonSoulEaterBluePBR.prefab
+  artifactKey: Guid(31a77d5e57bdce243a1c38bc0ba2808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterPBR/DragonSoulEaterBluePBR.prefab using Guid(31a77d5e57bdce243a1c38bc0ba2808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997afa2d2e214dd5da31883e668ddb4a') in 0.314399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.884178 seconds.
+  path: Assets/AurynSky
+  artifactKey: Guid(e935b55cf6a30e84fac07f0b6ed51411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky using Guid(e935b55cf6a30e84fac07f0b6ed51411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c59508b99faa24a34f5d4055b6d7819') in 0.022771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.432091 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack
+  artifactKey: Guid(d392a3bde4f341c47a9347e1f3034994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack using Guid(d392a3bde4f341c47a9347e1f3034994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a463b7c8418895284e9ed6aee95a2566') in 0.016848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.780519 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs
+  artifactKey: Guid(ea08d9dc514a72c4182e8436320c8ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs using Guid(ea08d9dc514a72c4182e8436320c8ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e13724377ce701614042ce79fc1c66a') in 0.018260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040006 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab
+  artifactKey: Guid(0ed203d298c050b49bfabe788790e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab using Guid(0ed203d298c050b49bfabe788790e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1923435a0ba8b4162e97e8a4eb4806') in 0.063984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemLarge.prefab
+  artifactKey: Guid(8b40cffea67202d4bbf662b25de4c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemLarge.prefab using Guid(8b40cffea67202d4bbf662b25de4c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2661a2eef9d7ac5965c4dc8988f23987') in 0.037322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/HardStar.prefab
+  artifactKey: Guid(c4bf8b30fce268044a786a8600922324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/HardStar.prefab using Guid(c4bf8b30fce268044a786a8600922324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01617f639347bed35b1e10e4baa7bf2f') in 0.039814 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
